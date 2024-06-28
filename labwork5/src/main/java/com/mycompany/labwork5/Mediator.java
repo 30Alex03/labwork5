@@ -202,10 +202,10 @@ public class Mediator {
     }
     public void setGIF(boolean a){
         if (a){
-            GIFLabel.setIcon(new ImageIcon("HappyNekit.jpg"));
+            GIFLabel.setIcon(new ImageIcon("SL.jpg"));
         }
         else{
-            GIFLabel.setIcon(new ImageIcon("SadNekit.jpg"));
+            GIFLabel.setIcon(new ImageIcon("SL.jpg"));
         }
     }
 }

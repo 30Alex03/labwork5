@@ -18,7 +18,7 @@ public class GameActions {
             case "Sub-Zero" -> {
                 return list.get((int) (Math.random() * 3));
             }
-            case "Lord Islam Maximov" -> {
+            case "HRAM" -> {
                 list.remove(2);
                 return list.get((int) (Math.random() * 3));
             }
