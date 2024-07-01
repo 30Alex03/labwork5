@@ -15,7 +15,7 @@ public class GameActions {
 
     public FightAction chooseEnemyAction(Enemy enemy, ArrayList<FightAction> list) {
         switch (enemy.getName()) {
-            case "Sub-Zero" -> {
+            case "Hawkeye" -> {
                 return list.get((int) (Math.random() * 3));
             }
             case "HRAM" -> {
@@ -118,7 +118,7 @@ public class GameActions {
                     enemy.setDamage(16);
                     enemy.setMaxHealth(60);
                 }
-                case "Sonya Blade" -> {
+                case "Captain America" -> {
                     enemy.setLevel(1);
                     enemy.setDamage(16);
                     enemy.setMaxHealth(80);
@@ -128,12 +128,12 @@ public class GameActions {
                     enemy.setDamage(30);
                     enemy.setMaxHealth(100);
                 }
-                case "Liu Kang" -> {
+                case "Iron man" -> {
                     enemy.setLevel(1);
                     enemy.setDamage(20);
                     enemy.setMaxHealth(70);
                 }
-                case "Baraka" -> {
+                case "Halk" -> {
                     enemy.setLevel(1);
                     enemy.setDamage(12);
                     enemy.setMaxHealth(100);

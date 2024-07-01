@@ -32,19 +32,19 @@ public class Location {
             switch (k) {
                 case 0 -> {
                     enemy = fullEnemiesList[0];
-                    enemy.setIcon("B.jpg");
+                    enemy.setIcon("Halk.jpg");
                 }
                 case 1 -> {
                     enemy = fullEnemiesList[1];
-                    enemy.setIcon("SZ.jpg");
+                    enemy.setIcon("Hawkeye.jpg");
                 }
                 case 2 -> {
                     enemy = fullEnemiesList[2];
-                    enemy.setIcon("LK.jpg");
+                    enemy.setIcon("Iron man.jpg");
                 }
                 case 3 -> {
                     enemy = fullEnemiesList[3];
-                    enemy.setIcon("SB.jpg");
+                    enemy.setIcon("Captain America.jpg");
                 }
             }
             currentEnemiesList.add(enemy);

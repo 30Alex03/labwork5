@@ -26,10 +26,10 @@ public class Game {
     private final Enemy enemies[] = new Enemy[5];
 
     public void setEnemies() {
-        enemies[0] = new Enemy("Baraka", 1, 100, 12);
-        enemies[1] = new Enemy("Sub-Zero", 1, 60, 16);
-        enemies[2] = new Enemy("Liu Kang", 1, 70, 20);
-        enemies[3] = new Enemy("Sonya Blade", 1, 80, 16);
+        enemies[0] = new Enemy("Halk", 1, 100, 12);
+        enemies[1] = new Enemy("Hawkeye", 1, 60, 16);
+        enemies[2] = new Enemy("Iron man", 1, 70, 20);
+        enemies[3] = new Enemy("Captain America", 1, 80, 16);
         enemies[4] = new Enemy("HRAM", 3, 100, 30);
     }
 
