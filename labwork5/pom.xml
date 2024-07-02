@@ -38,7 +38,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                       labwork5.Labwork5
+                                       com.mycompany.labwork5.Labwork5
                                     </mainClass>
                                 </manifest>
                             </archive>
